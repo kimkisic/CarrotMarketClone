@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titleimage"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/startGif"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"/>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="우리 동네 중고 직거래"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기식마켓은 동네 직거래 마켓이에요.\n내 동네를 설정하고 시작해보세요!"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/replace_startPage"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내 동네 설정하고 시작하기"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@color/carrot"/>
+
+</LinearLayout>
