@@ -4,6 +4,8 @@ public class LocationData {
 
     private String locationData;
 
+    public LocationData() {}
+
     public LocationData(String locationData) {
         this.locationData = locationData;
     }

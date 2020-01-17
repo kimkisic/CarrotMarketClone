@@ -42,7 +42,7 @@
         android:text="근처동네"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recylce_location"
+        android:id="@+id/recycler_location"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </androidx.recyclerview.widget.RecyclerView>
